@@ -1,0 +1,37 @@
+{
+  "name": "lyric-player",
+  "version": "0.1.0",
+  "description": "Play lyric in terminal.",
+  "bin": {
+    "lyric-player": "lyric-player.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someus/lyric-player.git"
+  },
+  "files": [
+    "lyric-player.js"
+  ],
+  "keywords": [
+    "lyric",
+    "player"
+  ],
+  "author": {
+    "name": "Letian",
+    "url": "www.letiantian.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/someus/lyric-player/issues"
+  },
+  "homepage": "https://github.com/someus/lyric-player#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "keypress": "^0.2.1",
+    "lrc-kit": "^0.1.3",
+    "terminal-text-width": "^0.1.0"
+  }
+}
