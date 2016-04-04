@@ -15,7 +15,7 @@ $ lyric-player path/to/foo.lrc
 ```
 
 | Keyboard key | Description |
-|===========================|
+|--------------|-------------|
 |<kbd>Space</kbd>| Pause / Play |
 |<kbd>Left</kbd> | backward for 3 seconds |
 |<kbd>Right</kbd>| forward for 3 seconds|
