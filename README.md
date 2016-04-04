@@ -17,10 +17,12 @@ $ lyric-player path/to/foo.lrc
 | Keyboard key | Description |
 |--------------|-------------|
 |<kbd>Space</kbd>| Pause / Play |
-|<kbd>Left</kbd> | backward for 3 seconds |
-|<kbd>Right</kbd>| forward for 3 seconds|
+|<kbd>Left</kbd> | Backward for 3 seconds |
+|<kbd>Right</kbd>| Forward for 3 seconds|
+|<kbd>Ctrl</kbd> + <kbd>c</kbd>| Quit|
 
-Wihle the player is paused, <kbd>Left</kbd> and <kbd>Right</kbd> are disabled.
+
+After the player is paused, <kbd>Left</kbd> and <kbd>Right</kbd> are disabled.
 
 
 ## License

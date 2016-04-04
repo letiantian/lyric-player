@@ -175,12 +175,6 @@ var intervelFunc = function() {
     display(this.lrc);
 };
 
-var play = function(lrc) {
-    startTimestamp = getTimestamp();
-    var ifunc = intervelFunc.bind({lrc:lrc});
-    setInterval(ifunc, 100);
-};
-
 
 //// main
 filepath = process.argv[2]
@@ -192,14 +186,6 @@ if (!filepath) {
 fs.readFile(filepath, 'utf-8', function(err,data) {
     var lrc = Lrc.parse(data);
     postProcessLrc(lrc);
-
-    // console.log(lrc.info);
-    // console.log(lrc.lyrics);
-    // updateCurEntry(lrc, 300);
-    // console.log(lrc.lyrics[curEntryIdx])
-
-    // play(lrc);
-    
 
     enterFullscreen();
 
