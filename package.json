@@ -13,7 +13,9 @@
     "url": "git+https://github.com/someus/lyric-player.git"
   },
   "files": [
-    "lyric-player.js"
+    "lyric-player.js",
+    "README.md",
+    "example/screenshot.png"
   ],
   "keywords": [
     "lyric",
@@ -21,7 +23,7 @@
   ],
   "author": {
     "name": "Letian",
-    "url": "www.letiantian.me"
+    "url": "http://www.letiantian.me"
   },
   "license": "MIT",
   "bugs": {
